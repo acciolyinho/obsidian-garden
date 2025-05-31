@@ -1,3 +1,0 @@
-#Linux 
-
-[[acciolyinho.zsh-theme]]

@@ -1,4 +1,0 @@
-- ### [[UFRPE/Mineração de Texto/Conteúdo/Sobre|Sobre]]
-- ### [[UFRPE/Mineração de Texto/Conteúdo/Conteúdo|Conteúdo]]
-- ### [[UFRPE/Mineração de Texto/Atividades/Atividades|Atividades]]
-- ### [[UFRPE/Mineração de Texto/Projetos/Projetos|Projetos]]
