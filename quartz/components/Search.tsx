@@ -1,10 +1,22 @@
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/search.scss"
 // @ts-ignore
 import script from "./scripts/search.inline"
+import { classNames } from "../util/lang"
+import { i18n } from "../i18n"
 
-export default (() => {
-  function Search({ displayClass }: QuartzComponentProps) {
+export interface SearchOptions {
+  enablePreview: boolean
+}
+
+const defaultOptions: SearchOptions = {
+  enablePreview: true,
+}
+
+export default ((userOpts?: Partial<SearchOptions>) => {
+  const Search: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+    const opts = { ...defaultOptions, ...userOpts }
+    const searchPlaceholder = i18n(cfg.locale).components.search.searchBarPlaceholder
     return (
       <div class={`search ${displayClass ?? ""}`}>
         <div id="search-icon">
@@ -24,18 +36,18 @@ export default (() => {
               <circle cx="8" cy="8" r="7" />
             </g>
           </svg>
-        </div>
-        <div id="search-container">
-          <div id="search-space">
+        </button>
+        <div class="search-container">
+          <div class="search-space">
             <input
               autocomplete="off"
-              id="search-bar"
+              class="search-bar"
               name="search"
               type="text"
               aria-label="Busque por algo"
               placeholder="Busque por algo"
             />
-            <div id="results-container"></div>
+            <div class="search-layout" data-preview={opts.enablePreview}></div>
           </div>
         </div>
       </div>
