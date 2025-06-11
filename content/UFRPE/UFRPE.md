@@ -18,6 +18,7 @@ tags:
 - [[Arquitetura e Organização de Computadores]]
 - [[Mineração de Texto]]
 - [[Gestão de Processo de Negócio| Gestão de Processos de Negócio]]
+- [[Física Aplicada à Computação]]
 
 ## Projetos
 
