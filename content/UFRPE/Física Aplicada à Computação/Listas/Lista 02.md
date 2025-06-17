@@ -1,9 +1,3 @@
----
-title: Física - Lista 02
-draft: false
----
-
-
 • Capítulo 23
 – 4
 – 17

@@ -1,21 +1,15 @@
----
-title: Física - Lista 01
-draft: false
----
-
-
-Capítulo 21 (pag 59)
-– Q2 - P966
-– Q4 - P967
-– Q13 - P971
-– Q29 - P978
-– Q35 - P981
+• Capítulo 21
+– 2
+– 4
+– 13
+– 29
+– 35
 • Capítulo 22
-– Q7 - P1002
-– Q24
-– Q30
-– Q32
-– Q37
+– 7
+– 24
+– 30
+– 32
+– 37
 
 ## (Cap 21) Questão 2
 
