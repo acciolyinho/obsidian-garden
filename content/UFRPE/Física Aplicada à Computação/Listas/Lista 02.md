@@ -13,10 +13,6 @@
 
 ## (Cap 23) Questão 04
 
-
-![[Pasted image 20250610212702.png]]
-
-
 Queremos determinar o fluxo elétrico através de uma rede circular (para pegar borboletas) que está imersa em um campo elétrico uniforme de módulo:
 
 $$
@@ -63,7 +59,6 @@ $$
 
 ## (Cap 23) Questão 17
 
-![[Pasted image 20250610213232.png]]
 
 Uma esfera condutora uniformemente carregada tem:
 - Diâmetro $d = 1{,}20 \ \text{m} \Rightarrow$ raio $R = \frac{1{,}20}{2} = 0{,}60 \ \text{m}$
@@ -111,8 +106,6 @@ $$
 
 ## (Cap 23) Questão 18
 
-![[Pasted image 20250610214235.png]]
-
 O campo elétrico nas vizinhanças da superfície lateral de um cilindro condutor é dado como:
 
 $$
@@ -147,8 +140,6 @@ $$
 ---
 
 ## (Cap 23) Questão 25
-
-![[Pasted image 20250610214703.png]]
 
 Uma linha infinita de carga produz um campo elétrico de módulo:
 
@@ -201,88 +192,145 @@ $$
 
 ## (Cap 23) Questão 36
 
-![[Pasted image 20250610215411.png]]
 
-Duas placas planas, paralelas, de grande extensão, **isolantes** e **positivamente carregadas** possuem densidade superficial de carga:
+O problema nos pede para determinar o campo elétrico $\vec{E}$ em três regiões distintas criadas por duas placas planas, paralelas, isolantes e de grande extensão. Ambas as placas estão carregadas positivamente com uma distribuição superficial de carga 
 
-$$
-\sigma = 1{,}77 \times 10^{-22} \ \text{C/m}^2
-$$
+$\sigma = 1.77 \times 10^{-22} \text{ C/m}^2$. Adotaremos o eixo y como perpendicular às placas, com sentido positivo para cima, conforme a figura do problema. O vetor unitário na direção y é $\hat{j}$.
 
-Deseja-se determinar o campo elétrico $\vec{E}$, em notação vetorial, nos seguintes pontos:
-(a) acima das placas,  
-(b) entre as placas,  
-(c) abaixo das placas.
+O módulo do campo elétrico gerado por uma única placa infinita com densidade superficial de carga $\sigma$ é dado por:
 
-**Campo elétrico gerado por uma única placa infinita**
+$$ E_{\text{placa}} = \frac{|\sigma|}{2\epsilon_0} $$
 
-Para uma placa com densidade $\sigma$, o campo elétrico gerado é:
+onde $\epsilon_0 \approx 8.85 \times 10^{-12} \text{ C}^2/(\text{N} \cdot \text{m}^2)$ é a permissividade do vácuo. A direção do campo é perpendicular à placa; para uma placa positivamente carregada, o campo aponta para longe da placa.
 
-$$
-E = \frac{\sigma}{2\varepsilon_0}
-$$
+Vamos calcular a magnitude do campo devido a uma única placa:
+$$ E_{\text{placa}} = \frac{1.77 \times 10^{-22} \text{ C/m}^2}{2 \times 8.85 \times 10^{-12} \text{ C}^2/(\text{N} \cdot \text{m}^2)}$$
+$$= \frac{1.77 \times 10^{-22}}{17.7 \times 10^{-12}} \text{ N/C}$$
+$$= 0.1 \times 10^{-10} \text{ N/C}$$
+$$= 1.00 \times 10^{-11} \text{ N/C} $$
 
-Esse campo é perpendicular à placa e **aponta para fora** se a carga for positiva.  
-Como temos **duas placas**, o campo total em cada região será a **soma vetorial** dos campos de cada uma.
+Usaremos o princípio da superposição para determinar o campo elétrico resultante em cada região.
 
-**Constante elétrica:**
+- **Acima das placas**
 
-$$
-\varepsilon_0 = 8{,}85 \times 10^{-12} \ \text{C}^2/\text{N} \cdot \text{m}^2
-$$
+Na região acima de ambas as placas, a placa superior (P1) e a placa inferior (P2) geram campos elétricos que apontam para cima (sentido positivo de y).
+Seja $\vec{E}_1$ o campo devido à placa superior e $\vec{E}_2$ o campo devido à placa inferior.
+$$ \vec{E}_1 = \frac{\sigma}{2\epsilon_0} \hat{j} $$
+$$ \vec{E}_2 = \frac{\sigma}{2\epsilon_0} \hat{j} $$
 
-Cálculo da contribuição de uma placa:
+O campo elétrico resultante $\vec{E}_{\text{acima}}$ é a soma vetorial:
 
-$$
-E = \frac{1{,}77 \times 10^{-22}}{2 \cdot 8{,}85 \times 10^{-12}} = 1{,}00 \times 10^{-11} \ \text{N/C}
-$$
+$$ \vec{E}_{\text{acima}} = \vec{E}_1 + \vec{E}_2 = \frac{\sigma}{2\epsilon_0} \hat{j} + \frac{\sigma}{2\epsilon_0} \hat{j} = \frac{\sigma}{\epsilon_0} \hat{j} $$
 
-**(a) Acima das placas:**
+Calculando a magnitude:
+$$ E_{\text{acima}} = \frac{1.77 \times 10^{-22} \text{ C/m}^2}{8.85 \times 10^{-12} \text{ C}^2/(\text{N} \cdot \text{m}^2)} = 2.00 \times 10^{-11} \text{ N/C} $$
 
-Acima da placa superior, os campos das duas placas se somam:
-- Placa superior: campo aponta para cima
-- Placa inferior: campo também aponta para cima
+Portanto, o campo elétrico acima das placas é:
 
-$$
-\vec{E}_{\text{acima}} = 2 \cdot \left(\frac{\sigma}{2\varepsilon_0}\right) \hat{j} = \frac{\sigma}{\varepsilon_0} \hat{j}
-$$
+$$ \vec{E}_{\text{acima}} = (2.00 \times 10^{-11} \text{ N/C}) \hat{j} $$
 
-$$
-\vec{E}_{\text{acima}} = \frac{1{,}77 \times 10^{-22}}{8{,}85 \times 10^{-12}} \hat{j} \approx \boxed{2{,}00 \times 10^{-11} \hat{j} \ \text{N/C}}
-$$
+- **Entre as placas**
 
-**(b) Entre as placas:**
+Na região entre as placas, o campo elétrico gerado pela placa superior ($\vec{E}_1$) aponta para baixo (sentido negativo de y), pois estamos abaixo dela. O campo elétrico gerado pela placa inferior ($\vec{E}_2$) aponta para cima (sentido positivo de y), pois estamos acima dela.
+$$ \vec{E}_1 = -\frac{\sigma}{2\epsilon_0} \hat{j} $$
+$$ \vec{E}_2 = \frac{\sigma}{2\epsilon_0} \hat{j} $$
+O campo elétrico resultante $\vec{E}_{\text{entre}}$ é a soma vetorial:
+$$ \vec{E}_{\text{entre}} = \vec{E}_1 + \vec{E}_2 = -\frac{\sigma}{2\epsilon_0} \hat{j} + \frac{\sigma}{2\epsilon_0} \hat{j} = \vec{0} $$
+Portanto, o campo elétrico entre as placas é:
+$$ \vec{E}_{\text{entre}} = 0 $$
 
-- Placa superior gera campo para baixo
-- Placa inferior gera campo para cima
+- **Abaixo das placas**
 
-Ambos têm mesma magnitude e se **cancelam**:
-
-$$
-\vec{E}_{\text{entre}} = \boxed{0}
-$$
-
-**(c) Abaixo das placas:**
-
-- Placa inferior: campo aponta para baixo
-- Placa superior: campo também aponta para baixo
-
-$$
-\vec{E}_{\text{abaixo}} = \frac{\sigma}{\varepsilon_0} (-\hat{j}) = \boxed{-2{,}00 \times 10^{-11} \hat{j} \ \text{N/C}}
-$$
+Na região abaixo de ambas as placas, tanto o campo elétrico gerado pela placa superior ($\vec{E}_1$) quanto o campo gerado pela placa inferior ($\vec{E}_2$) apontam para baixo (sentido negativo de y).
+$$ \vec{E}_1 = -\frac{\sigma}{2\epsilon_0} \hat{j} $$
+$$ \vec{E}_2 = -\frac{\sigma}{2\epsilon_0} \hat{j} $$
+O campo elétrico resultante $\vec{E}_{\text{abaixo}}$ é a soma vetorial:
+$$ \vec{E}_{\text{abaixo}} = \vec{E}_1 + \vec{E}_2 = -\frac{\sigma}{2\epsilon_0} \hat{j} - \frac{\sigma}{2\epsilon_0} \hat{j} = -\frac{\sigma}{\epsilon_0} \hat{j} $$
+A magnitude é a mesma calculada para a região acima das placas:
+$$ E_{\text{abaixo}} = \frac{1.77 \times 10^{-22} \text{ C/m}^2}{8.85 \times 10^{-12} \text{ C}^2/(\text{N} \cdot \text{m}^2)} = 2.00 \times 10^{-11} \text{ N/C} $$
+Portanto, o campo elétrico abaixo das placas é:
+$$ \vec{E}_{\text{abaixo}} = -(2.00 \times 10^{-11} \text{ N/C}) \hat{j} $$
 
 ---
 
 ## (Cap 24) Questão 8
 
-![[Pasted image 20250610221029.png]]
+Sabemos que a **variação de potencial elétrico** $\Delta V$ entre dois pontos pode ser obtida pela área sob a curva $\vec{E} \times x$, com sinal invertido:
 
-# >>>>>>>Trabalhar na resposta com Átila <<<<<<<<
+$$
+\Delta V = -\int \vec{E} \cdot d\vec{s}
+$$
+
+Se o campo elétrico aponta na mesma direção do deslocamento, a integral será positiva, e o potencial diminui. Se a força externa move a carga **contra** o campo elétrico, o trabalho será **positivo**.
+
+A relação entre trabalho e variação de potencial é:
+
+$$
+W_{\text{ext}} = q \Delta V
+$$
+
+Considerando uma carga positiva, o trabalho externo será **positivo** quando o potencial aumentar.
+
+**(a) Deslocamento de A para B**
+
+- Em A: $V = 10\ \text{V}$
+- Em B: O gráfico indica um aumento de $20\ \text{V}$, obtido pela área de um triângulo:
+
+$$
+V_B - 10 = \frac{1}{2} \cdot 2 \cdot 20 = 20 \Rightarrow V_B = 30\ \text{V}
+$$
+
+Como o potencial aumentou de A para B, a força externa teve que trabalhar **contra** o campo elétrico, portanto:
+
+$$
+\boxed{\text{Trabalho positivo}}
+$$
+
+
+**(b) Deslocamento de B para C**
+
+- De A até B: $V = 30\ \text{V}$
+- De A até C: precisamos calcular até $x = 3$. A área sob o gráfico até $x = 3\ \text{m}$ é:
+
+$$
+V_C - 10 = \frac{1}{2} \cdot 3 \cdot 20 = 30 \Rightarrow V_C = 40\ \text{V}
+$$
+
+Logo, de B para C o potencial aumenta de $30 \rightarrow 40\ \text{V}$, o que indica:
+
+$$
+\boxed{\text{Trabalho positivo}}
+$$
+
+
+**(c) Deslocamento de B para D**
+
+Do ponto B ($V = 30\ \text{V}$) ao ponto D, que corresponde ao ponto onde o potencial se anula ($V = 0\ \text{V}$), há uma **diminuição** do potencial.
+
+Isso implica que a força externa atua **a favor** do campo elétrico, portanto:
+
+$$
+\boxed{\text{Trabalho negativo}}
+$$
+
+
+**(d) Ordem decrescente do trabalho realizado pela força externa**
+
+Como o trabalho externo é proporcional ao aumento do potencial elétrico, a ordem dos deslocamentos em termos de maior para menor trabalho externo é:
+
+1. **B → C**: $\Delta V = +10\ \text{V}$
+2. **A → B**: $\Delta V = +20\ \text{V}$
+3. **B → D**: $\Delta V = -30\ \text{V}$
+
+**Ordem decrescente do trabalho da força externa:**
+
+$$
+\boxed{\text{C},\ \text{A},\ \text{D}}
+$$
 
 
 ## (Cap 24) Questão 16
 
-![[Pasted image 20250610222531.png]]
 
 Temos um arranjo retangular com lado $a = 39{,}0 \ \text{cm} = 0{,}39 \ \text{m}$ contendo as seguintes cargas:
 
@@ -334,9 +382,7 @@ $$
 
 ---
 
-## (Cap 23) Questão 23
-
-![[Pasted image 20250610223100.png]]
+## (Cap 24) Questão 23
 
 - Comprimento da barra: $L = 6{,}00 \ \text{cm} = 0{,}06 \ \text{m}$
 - Densidade linear de carga: $\lambda = +3{,}68 \ \text{pC/m} = 3{,}68 \times 10^{-12} \ \text{C/m}$
@@ -380,9 +426,7 @@ $$
 
 ---
 
-## (Cap 23) Questão 25
-
-![[Pasted image 20250610223928.png]]
+## (Cap 24) Questão 25
 
 - Raio da circunferência: $R = 8{,}20 \ \text{cm} = 8{,}20 \times 10^{-2} \ \text{m}$
 - Distância do ponto $P$: $D = 6{,}71 \ \text{cm} = 6{,}71 \times 10^{-2} \ \text{m}$
@@ -448,46 +492,53 @@ $$
 
 ---
 
-## (Cap 23) Questão 31
+## (Cap 24) Questão 31
 
+Dado um disco de raio $R = 0{,}640 \, \text{m}$ com densidade superficial de carga $\sigma = 7{,}73 \times 10^{-15} \, \text{C/m}^2$, do qual restou apenas um quadrante, o potencial elétrico no ponto $P$, localizado a uma distância $D = 0{,}259 \, \text{m}$ no eixo do disco, é calculado como segue:
 
-![[Pasted image 20250610224143.png]]
+**Etapas da Resolução**
 
-- Raio do disco: $R = 64{,}0 \ \text{cm} = 0{,}640 \ \text{m}$
-- Distância do ponto $P$ ao centro: $D = 25{,}9 \ \text{cm} = 0{,}259 \ \text{m}$
-- Densidade superficial de carga: $\sigma = 7{,}73 \ \text{fC/m}^2 = 7{,}73 \times 10^{-15} \ \text{C/m}^2$
-- $\varepsilon_0 = 8{,}85 \times 10^{-12} \ \text{C}^2/\text{N} \cdot \text{m}^2$
-
-**Potencial no eixo de um disco uniformemente carregado**
-
-O potencial gerado no ponto $P$ (localizado ao longo do eixo) por **um disco completo** é:
+Para um anel infinitesimal de raio $r$ e espessura $dr$, a carga diferencial é:
 
 $$
-V = \frac{\sigma}{2\varepsilon_0} \left( \sqrt{R^2 + D^2} - D \right)
+dq = \sigma \cdot (2\pi r) \cdot dr
 $$
 
-Como só **um quadrante permanece**, o potencial devido a esse quadrante é:
+Como apenas 1/4 do disco está presente, o potencial total será 1/4 do disco completo. O potencial devido a um anel a uma distância $D$ do ponto no eixo é:
 
 $$
-V_{\text{quad}} = \frac{1}{4} V = \frac{\sigma}{8\varepsilon_0} \left( \sqrt{R^2 + D^2} - D \right)
+dV = \frac{1}{4\pi \varepsilon_0} \cdot \frac{dq}{\sqrt{r^2 + D^2}} = \frac{1}{4\pi \varepsilon_0} \cdot \frac{2\pi r \sigma \, dr}{\sqrt{r^2 + D^2}}
+$$
+
+$$
+dV = \frac{\sigma r \, dr}{2 \varepsilon_0 \sqrt{r^2 + D^2}}
+$$
+
+Integrando de $r = 0$ até $r = R$:
+
+$$
+V_{\text{disco completo}} = \frac{\sigma}{2 \varepsilon_0} \int_0^R \frac{r \, dr}{\sqrt{r^2 + D^2}} = \frac{\sigma}{2 \varepsilon_0} \left[ \sqrt{r^2 + D^2} \right]_0^R = \frac{\sigma}{2 \varepsilon_0} \left( \sqrt{R^2 + D^2} - D \right)
+$$
+
+Logo, o potencial do quadrante é:
+
+$$
+V_q = \frac{1}{4} V_{\text{disco completo}} = \frac{\sigma}{8 \varepsilon_0} \left( \sqrt{R^2 + D^2} - D \right)
 $$
 
 **Substituindo os valores numéricos:**
 
 $$
-V_{\text{quad}} = \frac{7{,}73 \times 10^{-15}}{8 \cdot 8{,}85 \times 10^{-12}} 
-\left( \sqrt{(0{,}640)^2 + (0{,}259)^2} - 0{,}259 \right)
+\sigma = 7{,}73 \times 10^{-15} \, \text{C/m}^2, \quad \varepsilon_0 = 8{,}85 \times 10^{-12} \, \text{C}^2/\text{N·m}^2
+$$
+$$
+R = 0{,}640 \, \text{m}, \quad D = 0{,}259 \, \text{m}
 $$
 
 $$
-\sqrt{0{,}4096 + 0{,}0670} = \sqrt{0{,}4766} \approx 0{,}690
+V_q = \frac{7{,}73 \times 10^{-15}}{8 \cdot 8{,}85 \times 10^{-12}} \left( \sqrt{(0{,}640)^2 + (0{,}259)^2} - 0{,}259 \right)
 $$
 
 $$
-\left( \sqrt{R^2 + D^2} - D \right) \approx 0{,}690 - 0{,}259 = 0{,}431 \ \text{m}
-$$
-
-$$
-V_{\text{quad}} = \frac{7{,}73 \times 10^{-15}}{7{,}08 \times 10^{-11}} \cdot 0{,}431
-\approx (1{,}092 \times 10^{-4}) \cdot 0{,}431 = \boxed{4{,}71 \times 10^{-5} \ \text{V}}
+V_q \approx 4{,}71 \times 10^{-5} \, \text{V}
 $$

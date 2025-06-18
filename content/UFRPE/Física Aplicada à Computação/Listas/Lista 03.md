@@ -21,7 +21,7 @@
 - $C_4 = 4{,}00 \, \mu\text{F}$
 - $V = 20{,}0 \, \text{V}$
 
-#### (a) Capacitância equivalente $C_{\text{eq}}$
+**(a) Capacitância equivalente $C_{\text{eq}}$**
 
 1. Capacitores $C_4$ e $C_5$ em série:
 $$
@@ -41,45 +41,49 @@ $$
 C_{\text{eq}} = \frac{6{,}00 \cdot 6{,}00}{6{,}00 + 6{,}00} = \frac{36}{12} = 3{,}00 \, \mu\text{F}
 $$
 
-#### (b) Carga total armazenada
+**(b) Carga total armazenada**
 $$
 q = C_{\text{eq}} \cdot V = 3{,}00 \cdot 10^{-6} \cdot 20{,}0 = 6{,}00 \cdot 10^{-5} \, \text{C}
 $$
 
-#### (c) Diferença de potencial em $C_1$
+**(c) Diferença de potencial em $C_1$**
 Como $C_1$ e $C_6$ estão em paralelo, ambos recebem a mesma tensão:
 $$
 V_1 = \frac{6{,}00}{6{,}00 + 6{,}00} \cdot 20{,}0 = 10{,}0 \, \text{V}
 $$
 
-#### (d) Carga em $C_1$
+ **(d) Carga em $C_1$**
 $$
 q_1 = C_1 \cdot V_1 = 3{,}00 \cdot 10^{-6} \cdot 10{,}0 = 3{,}00 \cdot 10^{-5} \, \text{C}
 $$
 
-#### (e) Diferença de potencial em $C_2$
+ **(e) Diferença de potencial em $C_2$**
 $$
 V_2 = V - V_1 = 20{,}0 - 10{,}0 = 10{,}0 \, \text{V}
 $$
 
-#### (f) Carga em $C_2$
+ **(f) Carga em $C_2$**
 $$
 q_2 = C_2 \cdot V_2 = 2{,}00 \cdot 10^{-6} \cdot 10{,}0 = 2{,}00 \cdot 10^{-5} \, \text{C}
 $$
 
-#### (g) Diferença de potencial em $C_3$
+ **(g) Diferença de potencial em $C_3$**
 
-$C_3$ e $C_{45}$ estão em série e compartilham $V_2 = 10{,}0 \, \text{V}$
+Como a diferença de potencial $V_2$ é igualmente distribuída entre os capacitores $C_3$ e $C_5$, a diferença de potencial nos terminais de $C_3$ é:
 
-Como $C_3 = 2{,}00 \, \mu\text{F}$ e $C_{45} = 4{,}00 \, \mu\text{F}$, usamos divisão de tensão:
 $$
-V_3 = \frac{C_{45}}{C_3 + C_{45}} \cdot V_2 = \frac{4{,}00}{6{,}00} \cdot 10{,}0 = \frac{2}{3} \cdot 10{,}0 = 6{,}67 \, \text{V}
+V_3 = \frac{V_2}{2} = \frac{10{,}0 \, \text{V}}{2} = 5{,}00 \, \text{V}
 $$
 
-#### (h) Carga em $C_3$
+
+ **(h) Carga em $C_3$**
+
+A carga armazenada no capacitor $C_3$ é dada por:
+
 $$
-q_3 = C_3 \cdot V_3 = 2{,}00 \cdot 10^{-6} \cdot 6{,}67 \approx 1{,}33 \cdot 10^{-5} \, \text{C}
+q_3 = C_3 V_3 = (4{,}00 \, \mu\text{F})(5{,}00 \, \text{V}) = 2{,}00 \times 10^{-5} \, \text{C} = 20{,}0 \, \mu\text{C}
 $$
+
 
 ---
 
@@ -306,11 +310,7 @@ Respostas Finais:
 
 **(a) Sentido do movimento do elétron**
 
-O campo elétrico no fio aponta do terminal positivo para o terminal negativo da bateria, ou seja, no **sentido da corrente convencional**.
-
-Como o elétron possui carga negativa, ele se move **no sentido oposto ao do campo elétrico**.
-
-**Resposta**: O elétron se move no sentido **do terminal negativo para o terminal positivo**, ou seja, **contra o campo elétrico**.
+A corrente circula no sentido horário e o campo elétrico aponta para baixo, então os elétrons se movem **para cima**.
 
 **(b) Trabalho realizado pelo campo elétrico sobre o elétron**
 

@@ -13,8 +13,6 @@
 
 ## (Cap 21) Questão 2
 
-![[Pasted image 20250525194731.png]]
-
 ### Resolução
 
 As esferas 1 e 2 têm carga $q$ cada uma. Como a força eletrostática entre duas cargas pontuais idênticas a uma distância $r$ é dada por:
@@ -69,8 +67,6 @@ $$
 
 ## (Cap 21) Questão 4:
 
-![[Pasted image 20250531154040.png]]
-
 ### Resolução:
 
 Sabemos da eletrodinâmica que a **carga elétrica $q$** transferida por uma corrente constante durante um intervalo de tempo é dada pela equação fundamental:
@@ -94,7 +90,6 @@ $$
 \Delta t = 20 \, \mu\text{s} = 20 \times 10^{-6} \, \text{s} = 2{,}0 \times 10^{-5} \, \text{s}
 $$
 
-
 ### Passo 2: Substituir os valores na equação
 
 A corrente elétrica fornecida é:
@@ -108,7 +103,6 @@ Substituímos os valores na fórmula:
 $$
 q = (2{,}5 \times 10^4) \cdot (2{,}0 \times 10^{-5}) \, \text{C}
 $$
-
 
 ### Passo 3: Efetuar o produto
 
@@ -126,11 +120,9 @@ $$
 q = 0{,}50 \, \text{C}
 $$
 
-
 ### Interpretação física:
 
 Durante a curta duração de um relâmpago — apenas $20 \, \mu\text{s}$ — uma corrente extremamente intensa (25.000 A) flui, transferindo meio coulomb de carga. Esse valor é significativo, especialmente considerando que 1 C equivale ao fluxo de cerca de $6{,}24 \times 10^{18}$ elétrons.
-
 
 ### Resposta final:
 
@@ -138,13 +130,9 @@ $$
 \boxed{q = 0{,}50 \, \text{C}}
 $$
 
-
-
 ---
 
 ## (Cap 21) Questão 13:
-
-![[Pasted image 20250531154753.png]]
 
 ### Resolução:
 
@@ -241,7 +229,6 @@ $$
 
 Como todas as cargas estão dispostas ao longo do eixo $x$ e a resultante deve ser nula, a carga $q_3$ também deve estar nesse eixo. Logo:
 
-
 $$
 y = 0
 $$
@@ -254,8 +241,6 @@ $$
 ---
 
 ## (Cap 21 ) Questão 29:
-
-![[Pasted image 20250531160015.png]]
 
 Inicialmente:
 - Partícula 1 está em $x = -10{,}0 \, \text{cm}$,
@@ -349,57 +334,30 @@ $$
 
 ## (Cap 21) Questão 35
 
-![[Pasted image 20250531160704.png]]
-
 ### Resolução:
-
-  
 
 #### Parte (a) – Todos os 8 íons $\text{Cs}^+$ presentes
 
-  
-
 Sabemos que a força elétrica entre duas cargas puntiformes é dada por:
 
-  
-
 $$
-
 F = k \frac{q_1 q_2}{r^2}
-
 $$
-
-  
 
 onde:
-
 - $k = 8{,}99 \times 10^9 \, \text{N} \cdot \text{m}^2/\text{C}^2$ é a constante eletrostática,
-
 - $q = 1{,}60 \times 10^{-19} \, \text{C}$ é a carga elementar,
-
 - $r$ é a distância entre os íons.
-
   
-
 **Distância entre o centro do cubo e um vértice:**
-
-  
 
 A distância entre o centro do cubo (onde está o íon $\text{Cl}^-$) e um vértice (onde está um $\text{Cs}^+$) é a metade da diagonal do cubo:
 
-  
-
 $$
-
 d = \frac{\sqrt{3}}{2} a = \frac{\sqrt{3}}{2} \cdot 0{,}40 \times 10^{-9} \, \text{m} \approx 0{,}346 \times 10^{-9} \, \text{m}
-
 $$
-
-  
 
 **Interações simétricas:**
-
-  
 
 Como o sistema é perfeitamente simétrico, cada par de íons $\text{Cs}^+$ opostos exerce forças de mesma magnitude e direções opostas sobre o $\text{Cl}^-$, o que leva a uma **anulação vetorial total** da força resultante:
 
@@ -407,83 +365,44 @@ $$
 \vec{F}_{\text{total}} = 0
 $$
 
-  
-  
-
 #### Parte (b) – Um íon $\text{Cs}^+$ ausente (defeito)
-
-  
 
 Se um dos vértices está sem o íon $\text{Cs}^+$, essa simetria é quebrada. A força total sobre o $\text{Cl}^-$ será apenas a força exercida por esse íon "ausente" — como se fosse um campo de uma carga fictícia $-e$ naquela posição (princípio da superposição).
 
-  
-
 **Cálculo da força:**
-
-  
-
 $$
-
 F = k \frac{e^2}{d^2}
-
 $$
-
-  
 
 Substituindo:
 
-  
-
 - $e = 1{,}60 \times 10^{-19} \, \text{C}$
-
 - $d = 0{,}346 \times 10^{-9} \, \text{m}$
 
-  
-
 $$
-
 F = \frac{(8{,}99 \times 10^9) \cdot (1{,}60 \times 10^{-19})^2}{(0{,}346 \times 10^{-9})^2}
-
 $$
 
-  
-
 $$
-
 F = \frac{(8{,}99 \times 10^9) \cdot (2{,}56 \times 10^{-38})}{1{,}197 \times 10^{-19}} \approx 1{,}91 \times 10^{-9} \, \text{N}
-
 $$
-
-  
-  
 
 ### Respostas:
-
-  
 
 - (a) Quando todos os 8 íons $\text{Cs}^+$ estão presentes, a força eletrostática resultante sobre o íon $\text{Cl}^-$ é:
 
 $$
-
 \boxed{0 \, \text{N}} \quad \text{(devido à simetria)}
-
 $$
-
-  
-
 - (b) Quando um dos íons $\text{Cs}^+$ está ausente, a força eletrostática resultante sobre o íon $\text{Cl}^-$ é:
 
 $$
-
 \boxed{1{,}91 \times 10^{-9} \, \text{N}}
-
 $$
 
 --- 
 
 ## (Cap 22) Questão 7:
-
-![[Pasted image 20250531183659.png]]
 
 ### Resolução:
 
@@ -503,7 +422,6 @@ r = \frac{a}{\sqrt{2}} = \frac{0{,}050 \, \text{m}}{\sqrt{2}} \approx 0{,}03536 
 $$
 
 Vamos decompor os vetores campo elétrico de cada carga em suas componentes $x$ e $y$, e somar.
-
 
 #### Componente $E_x$:
 
@@ -558,8 +476,6 @@ Campo elétrico no centro do quadrado é vertical, apontando para cima.
 ---
 
 ## (Cap 22) Questão 24:
-
-![[Pasted image 20250531183719.png]]
 
 ### Resolução:
 
@@ -636,7 +552,6 @@ $$
 
 ## (Cap 22) Questão 30:
 
-![[Pasted image 20250531170711.png]]
 
 ### Resolução:
 
@@ -712,7 +627,6 @@ $$
 
 ## (Cap 22) Questão 32:
 
-![[Pasted image 20250531171911.png]]
 
 ### Resolução:
 
@@ -779,7 +693,6 @@ $$
 
 ## (Cap 22) Questão 37:
 
-![[Pasted image 20250531172139.png]]
 
 ### Resolução:
 
