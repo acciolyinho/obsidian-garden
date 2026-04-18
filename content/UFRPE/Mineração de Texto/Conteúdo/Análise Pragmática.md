@@ -1,1 +1,0 @@
-> Interpretação do texto e a identificação do objetivo pretendido com a mensagem.
